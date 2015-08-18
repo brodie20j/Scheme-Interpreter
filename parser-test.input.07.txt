@@ -1,0 +1,4 @@
+(define my-foldl
+  (lambda (f init lst)
+    (if (null? lst) init
+      (my-foldl f  (f (car lst) init) (cdr lst)))))

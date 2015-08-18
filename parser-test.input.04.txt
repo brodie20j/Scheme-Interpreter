@@ -1,0 +1,5 @@
+(define gen-list
+  (lambda (start stop)
+    (if (> start stop)
+        ()
+    (cons start (gen-list (+ start 1) stop)))))

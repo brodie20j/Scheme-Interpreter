@@ -1,0 +1,84 @@
+(+)
+(+ 1 2)
+(+ 1.0 2 3 )
+(* 2 3 4.0)
+
+(/ 2 2)
+( = 1 3)
+(= 1 1.0)
+(= 1 1.003)
+(= 1 1 1)
+
+(>= 2 1.5)
+(>= 2 2)
+(>= 1.5 1.6)
+(>= 3 3 3)
+(<= 2 1.5)
+(<= 2 2)
+(<= 1.5 1.6)
+(if (= 2 2.0) "Yep" "Nope")
+(modulo 5 3)
+(modulo 5 5)
+
+(- 2 (+ 1 2))
+(/ 4.0 3.0)
+(/ 4.0 3)
+(/ -4 .7)
+(/)
+(/ 1)
+(<= 4.0 (+ 1 2))
+(<= 2 (+ 2 3.0))
+(= (+ 1 2) (+ 2 (+ 1 2)))
+(>= (+ 1 2) (/ 3 (/ 1 2)))
+(modulo  (+ 3 2) 2)
+(- 1.3 2.0)
+(and 1 2)
+(and #t #t (quote (3)))
+
+(cond ((or #f #f #t) 4) (#t 2))
+(begin (define a 3) (define b 4) (+ b a))
+
+(define d (lambda () 2))
+d
+(car (quote (1 2 3)))
+(cdr (quote (1 2 3)))
+(let ((x (quote (2 3)))) (car x))
+(let ((x 3) (y x)) y)
+(let* ((x 3) (y x)) y)
+(let ((x 3) (y x)) y)
+(cdr (quote (3)))
+
+(letrec ((local-even?
+   (lambda (n)
+    (if (= n 0)
+        #t
+        (local-odd? (- n 1)))))
+    (local-odd?
+     (lambda (n)
+      (if (= n 0)
+       #f
+       (local-even? (- n 1))))))
+ (local-even? 88)) 
+
+
+(define factorial
+	(lambda (n)
+	    (if (= n 0)
+	        1
+	        (* n (factorial (- n 1))))))
+(factorial 7)
+"string"
+
+
+(cdr (cons 1 2.0))
+(cdr (cons 1 "3"))
+(cdr (quote (1 2)))
+(cdr (quote ((2 3))))
+(< 2 3)
+(< 2 )
+(> 2 3)
+(> 3.0 3)
+
+
+
+

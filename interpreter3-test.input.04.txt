@@ -1,0 +1,2 @@
+(begin (define a 3) (define b 4) (+ b a))
+(cond ((or #f #f #t) 4) (#t 2))

@@ -1,0 +1,18 @@
+( : Open
+5 : Integer
+) : Close
+( : Open
+( : Open
+( : Open
+This is 0239  : String
++ : Symbol
+abc : Symbol
+7 : Integer
+1 : Boolean
+) : Close
+) : Close
+1.555500 : Float
+4333 : Integer
+0 : Boolean
+3.200000 : Float
+) : Close

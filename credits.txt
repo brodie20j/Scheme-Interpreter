@@ -1,0 +1,5 @@
+credits.txt
+
+Will Schifeling, Jonathan Brodie, Zach Rubin,
+JUST AN FYI, our let* is letrec, we did it like letrec, ooops!!!!!!
+Helpers- Will Martin, Nick Jones, Sophia Davis, Karen Halls, Ken Schiller, Alex Calamaro, Adan Nunez http://en.wikipedia.org/wiki/Include_guard, http://msdn.microsoft.com/en-us/library/2a1b21sf.aspx, http://cboard.cprogramming.com/c-programming/159081-expected-expression-error.html, stack-overflow

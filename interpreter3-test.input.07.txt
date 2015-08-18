@@ -1,0 +1,9 @@
+(define circle-area-again
+  (lambda (r)
+    (let* ((my-pi 3.14) (answer (* my-pi r r)))
+      answer)))
+
+(letrec ((b a) (a 3))
+  a)
+
+(circle-area-again 3)

@@ -1,0 +1,4 @@
+(define first
+    (lambda (lst)
+        (car lst)))
+(first (quote (1 2 3 4 5)))

@@ -1,0 +1,12 @@
+( : Open
++ : Symbol
+x2 : Symbol
+( : Open
++ : Symbol
+( : Open
+quote : Symbol
+x : Symbol
+) : Close
+foo;; still a string : String
+323 : Integer
+) : Close

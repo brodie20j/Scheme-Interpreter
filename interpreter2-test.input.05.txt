@@ -1,0 +1,4 @@
+(define last
+    (lambda (lst)
+        (if (null? (cdr lst)) (car lst) (last (cdr lst)))))
+(last (quote (1 2 3 4 5)))

@@ -1,0 +1,2 @@
+(define f (let ((x 5)) (lambda () x)))
+(f)
